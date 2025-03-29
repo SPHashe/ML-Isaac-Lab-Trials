@@ -1,0 +1,21 @@
+Hardest part of learning anything is getting started, so heres a jump start of what to do for a quickstart
+
+# Download the Needed Folder
+https://docs.isaacsim.omniverse.nvidia.com/latest/installation/download.html#isaac-sim-download
+Go in the isaacsim website by nvidia and download the folder depending on your device.
+
+# Next Step
+Open up CMD with admin premisions, copy the following code and run it:
+
+mkdir C:\isaacsim
+cd %USERPROFILE%/Downloads
+tar -xvzf "isaac-sim-standalone@4.5.0-rc.36+release.19112.f59b3005.gl.windows-x86_64.release.zip" -C C:\isaacsim
+cd C:\isaacsim
+post_install.bat
+isaac-sim.selector.bat
+
+# Long Wait and Open Program
+After a whole bunch of code running on your screen, a Isaacsim full app  will open, select the options you need (and if you dont know then just run with the defaults it worked for me)
+
+# Debugging
+I didnt run into any problems after that. This will probably be updated over time as I run into problems. Good luck in your endevours fellow coders.
